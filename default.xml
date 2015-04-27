@@ -6,7 +6,7 @@
   <remote fetch="git://git.yoctoproject.org" name="yocto"/>
   <remote fetch="git://github.com/Freescale" name="freescale"/>
   <remote fetch="git://git.openembedded.org" name="oe"/>
-  <remote fetch="git://github.com/ipTronix" name="roj"/>
+  <remote fetch="git://github.com/ROJ-ITALY" name="roj"/>
 
   <project remote="yocto" revision="dizzy" name="poky" path="sources/poky"/>
   <project remote="yocto" revision="dizzy" name="meta-fsl-arm" path="sources/meta-fsl-arm"/>
