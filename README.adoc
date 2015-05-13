@@ -13,8 +13,8 @@ Download the BSP source:
 
 [source,console]
 $: PATH=${PATH}:~/bin
-$: mkdir fsl-community-bsp
-$: cd fsl-community-bsp
+$: mkdir roj-community-bsp
+$: cd roj-community-bsp
 $: repo init -u https://github.com/ROJ-ITALY/roj-community-bsp-platform -b dizzy
 $: repo sync
 
@@ -28,4 +28,4 @@ $: bitbake core-image-minimal
 
 You can use any directory to host your build.
 
-The source code is checked out at `fsl-community-bsp/sources`.
+The source code is checked out at `roj-community-bsp/sources`.
